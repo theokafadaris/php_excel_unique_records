@@ -1,6 +1,6 @@
 <?php
 require('SimpleXLSX.php');
-if ( $xlsx = SimpleXLSX::parse('CDR_06_08.xlsx') ) {
+if ( $xlsx = SimpleXLSX::parse('book.xlsx') ) {
 	$it = $xlsx->rows();
 	$flatarray=array();
 foreach($it as $k=>$v) {
