@@ -8,7 +8,6 @@ foreach($it as $k=>$v) {
 	$flatarray[]=$v[0];
 	
 }
-//var_dump($flatarray);
 $unique=array_unique($flatarray);
 echo "Total records in Excel file are:" ." " . count(array_filter($flatarray)) . ". " . 
 	 "Unique records are:" ." " . count(array_filter($unique)) . "." ;
